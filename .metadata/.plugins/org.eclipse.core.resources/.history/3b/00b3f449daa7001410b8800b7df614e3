@@ -1,0 +1,5 @@
+
+var loginWindow = Titanium.UI.createWindow ({
+	title: "Main Application",
+    backgroundColor:"#fff"
+});

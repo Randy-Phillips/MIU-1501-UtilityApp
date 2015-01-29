@@ -1,0 +1,46 @@
+
+var loginWindow = Titanium.UI.createWindow ({
+	title: "Main Application",
+    backgroundColor:"#fff"
+});
+
+var inputHeight = 10;
+
+var createInput = function(inputValue) {
+	var	createView = Ti.UI.createView({
+		backgroundColor: "303030",
+		border: 1,
+		top: inputHeight + 10,
+		height:	70,
+		left: 5,
+		right: 5
+	});
+	
+	var inputField = Ti.UI.createTextField ({
+		borderStyle: Ti.UI.INPUT_BORDERSTYLE_ROUNDED,
+		color: "#336699",
+		value: inputValue,
+		heigth: "100%",
+		width: "100%",
+		left: 10
+	});
+
+	
+	var clearValue = function(){
+		inputField.setValue("");
+	};
+
+	inputField.addEventListener("click", clearValue);
+	
+	createView.add(inputField);
+	loginWindow.add(createView);
+	inputHeight = createView.top + 70;
+	return inputHeight;
+};
+
+createInput("hello");
+createInput("hello2");
+createInput("hello3");
+
+loginWindow.open();
+

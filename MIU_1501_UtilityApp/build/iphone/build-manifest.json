@@ -1,0 +1,23 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "universal",
+	"iosSdkPath": "/Users/attackruby/Library/Application Support/Titanium/mobilesdk/osx/3.3.0.GA/iphone",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"modulesNativeHash": "d41d8cd98f00b204e9800998ecf8427e",
+	"gitHash": "787cd39",
+	"name": "MIU_1501_UtilityApp",
+	"id": "com.attackruby.utilityapp",
+	"analytics": true,
+	"publisher": "attackruby",
+	"url": "http://",
+	"version": "1.0",
+	"description": "",
+	"copyright": "2015 by attackruby",
+	"guid": "01d5862e-8b99-409a-96af-e29dddadeebc",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false,
+	"encryptJS": false
+}
